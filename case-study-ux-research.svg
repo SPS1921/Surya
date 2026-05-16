@@ -1,0 +1,17 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="620" fill="#111111"/>
+  <text x="78" y="116" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">UX Research Pipeline</text>
+  <text x="78" y="154" fill="#A3A3A3" font-family="Arial, Helvetica, sans-serif" font-size="19">Stakeholders, respondents, interviews and content analysis</text>
+  <rect x="90" y="240" width="780" height="18" rx="9" fill="#2A2A2A"/>
+  <rect x="90" y="354" width="780" height="18" rx="9" fill="#2A2A2A"/>
+  <circle cx="160" cy="249" r="48" fill="#2563EB"/>
+  <circle cx="360" cy="363" r="48" fill="#00A86B"/>
+  <circle cx="560" cy="249" r="48" fill="#FF5A1F"/>
+  <circle cx="760" cy="363" r="48" fill="#FACC15"/>
+  <text x="160" y="255" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900">Plan</text>
+  <text x="360" y="369" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900">Verify</text>
+  <text x="560" y="255" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900">IDI</text>
+  <text x="760" y="369" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900">Synthesize</text>
+  <rect x="110" y="476" width="740" height="62" rx="31" fill="white"/>
+  <text x="480" y="516" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="900">What users say - what product teams decide</text>
+</svg>

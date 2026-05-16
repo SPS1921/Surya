@@ -1,0 +1,13 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="620" fill="#FFF7ED"/>
+  <text x="74" y="112" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">Brand Recall Study</text>
+  <text x="74" y="150" fill="#6B5E50" font-family="Arial, Helvetica, sans-serif" font-size="19">Visibility, memory and category context</text>
+  <circle cx="480" cy="336" r="178" fill="#FF5A1F"/>
+  <circle cx="480" cy="336" r="122" fill="#111111"/>
+  <circle cx="480" cy="336" r="64" fill="#F5F5F0"/>
+  <text x="480" y="331" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900">Recall</text>
+  <text x="480" y="362" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900">Signal</text>
+  <text x="184" y="336" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">Reach</text>
+  <text x="776" y="336" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">Memory</text>
+  <text x="480" y="552" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800">From impressions to remembered brands</text>
+</svg>

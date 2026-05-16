@@ -1,0 +1,19 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="620" fill="#F6F3EA"/>
+  <rect x="70" y="72" width="820" height="476" rx="32" fill="#111111"/>
+  <text x="112" y="136" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900">AI Media House Workflow</text>
+  <text x="112" y="174" fill="#A3A3A3" font-family="Arial, Helvetica, sans-serif" font-size="18">Trend detection, generation, learning and distribution</text>
+  <path d="M214 310C284 218 410 218 480 310C550 402 676 402 746 310" stroke="#FFFFFF" stroke-width="4" opacity=".28"/>
+  <path d="M214 310C284 402 410 402 480 310C550 218 676 218 746 310" stroke="#FFFFFF" stroke-width="4" opacity=".28"/>
+  <rect x="128" y="250" width="172" height="120" rx="24" fill="#00A86B"/>
+  <rect x="394" y="250" width="172" height="120" rx="24" fill="#2563EB"/>
+  <rect x="660" y="250" width="172" height="120" rx="24" fill="#FF5A1F"/>
+  <text x="214" y="304" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Detect</text>
+  <text x="214" y="334" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Trends</text>
+  <text x="480" y="304" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Generate</text>
+  <text x="480" y="334" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Content</text>
+  <text x="746" y="304" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Learn &amp;</text>
+  <text x="746" y="334" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Distribute</text>
+  <circle cx="480" cy="450" r="38" fill="white"/>
+  <text x="480" y="458" text-anchor="middle" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="900">Loop</text>
+</svg>

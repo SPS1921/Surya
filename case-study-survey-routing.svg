@@ -1,0 +1,17 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="620" fill="#F8FAFC"/>
+  <text x="70" y="112" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">Quota Routing Prototype</text>
+  <text x="70" y="150" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="19">Respondent flow based on segment caps</text>
+  <rect x="94" y="242" width="180" height="96" rx="20" fill="#111111"/>
+  <rect x="390" y="160" width="180" height="96" rx="20" fill="#2563EB"/>
+  <rect x="390" y="324" width="180" height="96" rx="20" fill="#00A86B"/>
+  <rect x="686" y="242" width="180" height="96" rx="20" fill="#FF5A1F"/>
+  <path d="M274 290H348C370 290 370 208 390 208" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M274 290H348C370 290 370 372 390 372" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M570 208C630 208 626 290 686 290" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M570 372C630 372 626 290 686 290" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <text x="184" y="300" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Start</text>
+  <text x="480" y="218" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Segment A</text>
+  <text x="480" y="382" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Segment B</text>
+  <text x="776" y="300" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900">Complete</text>
+</svg>

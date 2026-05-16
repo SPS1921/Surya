@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surya Pratap Singh | Product & Founder's Office</title>
+    <meta
+      name="description"
+      content="Surya Pratap Singh portfolio for Founder's Office, Associate Product Manager, Product Strategy, and Product Research roles."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" data-field="name">Your Name</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="icon-button nav-toggle" type="button" aria-label="Open menu" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow" data-field="availability">Available for select projects</p>
+          <h1>
+            <span data-field="role">Founder's Office and Product Generalist</span>
+            <span class="muted-line">based in <span data-field="location">India</span>.</span>
+          </h1>
+          <p class="lead" data-field="intro">
+            I build thoughtful digital experiences that balance clean design, reliable engineering,
+            and clear business outcomes.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Case Studies</a>
+            <a class="button secondary" data-field-attr="resumeUrl:href" href="Surya-Pratap-Singh-Resume.pdf">Resume</a>
+            <a class="button secondary" href="#contact">Contact</a>
+          </div>
+          <div class="hero-signals" aria-label="Role signals">
+            <span>Discovery</span>
+            <span>GTM</span>
+            <span>Execution</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Portfolio visual">
+          <img data-field-attr="profileImage:src" src="" alt="Surya Pratap Singh profile visual" />
+          <div class="visual-card">
+            <strong data-field="name">Your Name</strong>
+            <span data-field="summary">A responsive portfolio designed to be edited quickly.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats band" aria-label="Portfolio highlights" data-repeat="stats"></section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Product, research and founder-adjacent work with practical outcomes.</h2>
+        </div>
+        <div class="project-grid" data-repeat="projects"></div>
+      </section>
+
+      <section class="section split" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Target Roles</p>
+          <h2>Roles where research, strategy and execution meet.</h2>
+        </div>
+        <div class="service-list" data-repeat="services"></div>
+      </section>
+
+      <section class="section skills-section">
+        <div>
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and strengths I bring into the room.</h2>
+        </div>
+        <div class="skill-cloud" data-repeat="skills"></div>
+      </section>
+
+      <section class="section timeline-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Recent roles across research, product thinking and operations.</h2>
+        </div>
+        <div class="timeline" data-repeat="experience"></div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="section-heading">
+          <p class="eyebrow">Feedback</p>
+          <h2>What collaborators say.</h2>
+        </div>
+        <div class="testimonial-grid" data-repeat="testimonials"></div>
+      </section>
+
+      <section class="contact band" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Hiring for Founder's Office or Product?</h2>
+          <p data-field="summary">
+            A responsive portfolio designed to be edited quickly. Update this data file or use Edit
+            mode to personalize every section.
+          </p>
+        </div>
+        <div class="contact-card">
+          <a data-field="email" data-field-attr="email:href:mailto" href="mailto:hello@example.com">
+            hello@example.com
+          </a>
+          <a data-field="phone" data-field-attr="phone:href:tel" href="tel:+910000000000">
+            +91 00000 00000
+          </a>
+          <div class="socials" data-repeat="socials"></div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="editor" data-editor hidden>
+      <div class="editor-panel">
+        <div class="editor-header">
+          <strong>Edit Portfolio</strong>
+          <button class="icon-button" type="button" aria-label="Close editor" data-editor-close>
+            x
+          </button>
+        </div>
+        <label>
+          Name
+          <input type="text" data-edit="name" />
+        </label>
+        <label>
+          Role
+          <input type="text" data-edit="role" />
+        </label>
+        <label>
+          Location
+          <input type="text" data-edit="location" />
+        </label>
+        <label>
+          Intro
+          <textarea rows="4" data-edit="intro"></textarea>
+        </label>
+        <label>
+          Email
+          <input type="email" data-edit="email" />
+        </label>
+        <label>
+          Phone
+          <input type="text" data-edit="phone" />
+        </label>
+        <label>
+          Profile image URL
+          <input type="url" data-edit="profileImage" />
+        </label>
+        <label>
+          Full portfolio data
+          <textarea rows="12" spellcheck="false" data-json-editor></textarea>
+        </label>
+        <p class="editor-status" data-editor-status role="status"></p>
+        <div class="editor-actions">
+          <button class="button primary" type="button" data-save>Save</button>
+          <button class="button secondary" type="button" data-reset>Reset</button>
+        </div>
+        <p class="editor-note">
+          Edit the simple fields above or update the full JSON for projects, services, skills,
+          testimonials, and links.
+        </p>
+      </div>
+    </aside>
+
+    <button class="edit-fab" type="button" data-editor-open>Edit</button>
+
+    <script src="portfolio-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

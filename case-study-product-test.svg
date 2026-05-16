@@ -1,0 +1,14 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="620" fill="#EAF4FF"/>
+  <text x="76" y="112" fill="#0B1220" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">Product + Concept Test</text>
+  <text x="76" y="150" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="19">Sample, validation, coding, tables and decision report</text>
+  <rect x="78" y="216" width="230" height="260" rx="28" fill="#111111"/>
+  <rect x="365" y="216" width="230" height="260" rx="28" fill="#2563EB"/>
+  <rect x="652" y="216" width="230" height="260" rx="28" fill="#00A86B"/>
+  <text x="193" y="314" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="900">800</text>
+  <text x="193" y="358" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Total sample</text>
+  <text x="480" y="314" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="900">125</text>
+  <text x="480" y="358" text-anchor="middle" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Report slides</text>
+  <text x="767" y="314" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="900">E2E</text>
+  <text x="767" y="358" text-anchor="middle" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Execution support</text>
+</svg>
