@@ -74,6 +74,33 @@
       .join("");
   }
 
+  function renderShippedProjects() {
+    const target = $('[data-repeat="shippedProjects"]');
+    if (!target) return;
+    target.innerHTML = (data.shippedProjects || [])
+      .map(
+        (project) => `
+          <article class="product-card">
+            <div class="product-status">
+              <span>${text(project.status)}</span>
+              <span>${text(project.type)}</span>
+            </div>
+            <h3>${text(project.title)}</h3>
+            <p>${text(project.description)}</p>
+            <div class="tag-list">
+              ${(project.tags || []).map((tag) => `<span class="tag">${text(tag)}</span>`).join("")}
+            </div>
+            ${
+              project.url && project.url !== "#"
+                ? `<a class="product-link" href="${safeUrl(project.url)}" target="_blank" rel="noreferrer">Open live project</a>`
+                : `<span class="product-link muted">Build in progress</span>`
+            }
+          </article>
+        `
+      )
+      .join("");
+  }
+
   function renderServices() {
     $('[data-repeat="services"]').innerHTML = (data.services || [])
       .map(
@@ -91,6 +118,42 @@
     $('[data-repeat="skills"]').innerHTML = (data.skills || [])
       .map((skill) => `<span class="skill-pill">${text(skill)}</span>`)
       .join("");
+  }
+
+  function renderGroupedScroller(key) {
+    const target = $(`[data-repeat="${key}"]`);
+    if (!target) return;
+    target.innerHTML = (data[key] || [])
+      .map(
+        (group) => `
+          <article class="scroll-card">
+            <h3>${text(group.title)}</h3>
+            <ul>
+              ${(group.items || []).map((item) => `<li>${text(item)}</li>`).join("")}
+            </ul>
+          </article>
+        `
+      )
+      .join("");
+  }
+
+  function renderIndustries() {
+    const target = $('[data-repeat="industries"]');
+    if (!target) return;
+    target.innerHTML = (data.industries || [])
+      .map((industry) => `<span>${text(industry)}</span>`)
+      .join("");
+  }
+
+  function renderEducation() {
+    const target = $('[data-repeat="education"]');
+    if (!target) return;
+    const education = data.education || {};
+    target.innerHTML = `
+      <h3>${text(education.college)}</h3>
+      <p>${text(education.degree)}</p>
+      <p class="education-plan">${text(education.planned)}</p>
+    `;
   }
 
   function renderExperience() {
@@ -154,10 +217,15 @@
   document.title = `${data.name || "Portfolio"} | ${data.role || "Portfolio"}`;
   renderFields();
   renderStats();
+  renderShippedProjects();
   renderProjects();
   renderServices();
   renderSkills();
+  renderGroupedScroller("researchExposure");
+  renderGroupedScroller("expertiseGroups");
   renderExperience();
+  renderIndustries();
+  renderEducation();
   renderTestimonials();
   renderSocials();
   bindEvents();

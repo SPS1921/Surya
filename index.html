@@ -14,14 +14,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=4" />
+    <link rel="stylesheet" href="styles.css?v=6" />
   </head>
   <body>
     <header class="site-header" data-header>
       <a class="brand" href="#home" data-field="name">Your Name</a>
       <nav class="nav" aria-label="Primary navigation">
+        <a href="#products">Products</a>
         <a href="#work">Work</a>
-        <a href="#services">Services</a>
+        <a href="#research">Research</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -49,9 +50,9 @@
             <a class="button secondary" href="#contact">Contact</a>
           </div>
           <div class="hero-signals" aria-label="Role signals">
-            <span>Discovery</span>
-            <span>GTM</span>
-            <span>Execution</span>
+            <span>Research Ops</span>
+            <span>Client Management</span>
+            <span>AI Product</span>
           </div>
         </div>
         <div class="hero-visual" aria-label="Portfolio visual">
@@ -65,20 +66,35 @@
 
       <section class="stats band" aria-label="Portfolio highlights" data-repeat="stats"></section>
 
+      <section class="section featured-products" id="products">
+        <div class="section-heading">
+          <p class="eyebrow">Shipped Products</p>
+          <h2>Live builds, workflow systems and automation in motion.</h2>
+        </div>
+        <div class="product-rail" data-repeat="shippedProjects"></div>
+      </section>
+
       <section class="section" id="work">
         <div class="section-heading">
-          <p class="eyebrow">Selected Work</p>
-          <h2>Product, research and founder-adjacent work with practical outcomes.</h2>
+          <p class="eyebrow">Case Studies</p>
+          <h2>Research, operations and product-oriented work with practical outcomes.</h2>
         </div>
         <div class="project-grid" data-repeat="projects"></div>
       </section>
 
       <section class="section split" id="services">
         <div class="section-heading">
-          <p class="eyebrow">Target Roles</p>
-          <h2>Roles where research, strategy and execution meet.</h2>
+          <p class="eyebrow">Direction</p>
+          <h2>Roles where research, operations, AI and product systems meet.</h2>
         </div>
         <div class="service-list" data-repeat="services"></div>
+      </section>
+
+      <section class="section story-section">
+        <div class="story-card">
+          <p class="eyebrow">Career Story</p>
+          <p data-field="story"></p>
+        </div>
       </section>
 
       <section class="section skills-section">
@@ -89,12 +105,45 @@
         <div class="skill-cloud" data-repeat="skills"></div>
       </section>
 
+      <section class="section" id="research">
+        <div class="section-heading">
+          <p class="eyebrow">Research Exposure</p>
+          <h2>Hands-on coordination across quant, qual, UX, retail and analytics.</h2>
+        </div>
+        <div class="scroll-row" data-repeat="researchExposure"></div>
+      </section>
+
+      <section class="section expertise-section">
+        <div class="section-heading">
+          <p class="eyebrow">Functional Expertise</p>
+          <h2>Execution areas built through real projects and stakeholder work.</h2>
+        </div>
+        <div class="scroll-row compact" data-repeat="expertiseGroups"></div>
+      </section>
+
       <section class="section timeline-section" id="experience">
         <div class="section-heading">
           <p class="eyebrow">Experience</p>
-          <h2>Recent roles across research, product thinking and operations.</h2>
+          <h2>Recent roles across founder office work, research operations and coordination.</h2>
         </div>
         <div class="timeline" data-repeat="experience"></div>
+      </section>
+
+      <section class="section vision-section">
+        <div class="vision-grid">
+          <article class="vision-card">
+            <p class="eyebrow">Industry Exposure</p>
+            <div class="industry-marquee" data-repeat="industries"></div>
+          </article>
+          <article class="vision-card">
+            <p class="eyebrow">Career Vision</p>
+            <p data-field="vision"></p>
+          </article>
+          <article class="vision-card">
+            <p class="eyebrow">Education</p>
+            <div data-repeat="education"></div>
+          </article>
+        </div>
       </section>
 
       <section class="section testimonials">
@@ -125,7 +174,7 @@
       </section>
     </main>
 
-    <script src="portfolio-data.js?v=4"></script>
-    <script src="public.js?v=5"></script>
+    <script src="portfolio-data.js?v=6"></script>
+    <script src="public.js?v=6"></script>
   </body>
 </html>
